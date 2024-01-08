@@ -1,0 +1,37 @@
+:root {
+  --black: #2b2d42;
+  --white: #edf2f4;
+}
+body {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: bolder;
+}
+
+input {
+  margin-left: 10px;
+}
+
+.light-mode {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+#mode {
+  border: none !important;
+  background: transparent;
+  font-size: 40px;
+  position: absolute;
+  right: 50px;
+}
+
+#changeIcon {
+  color: var(--white);
+}
+
+.hero {
+  display: inline-flex;
+  justify-content: center;
+}

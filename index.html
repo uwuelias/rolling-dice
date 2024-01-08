@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Rolling</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="dice rolling.png" />
+    <script
+      src="https://kit.fontawesome.com/2b5d664fd7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="hero">
+        <h1 id="title">Dice Rolling Game</h1>
+        <button id="mode" onclick="changeMode()">
+          <i class="fa-solid fa-sun" id="changeIcon"></i>
+        </button>
+      </div>
+      <form>
+        <label for="dice-quantity">Dice Quantity (max 3):</label>
+        <input type="number" max="3" min="1" />
+        <br />
+        <label for="dice-roll-quantity">Dice Roll Quantity (max 3):</label>
+        <input type="number" max="3" min="1" />
+      </form>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
